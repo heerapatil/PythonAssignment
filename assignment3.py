@@ -2,7 +2,7 @@
 import sqlite3
 conn=sqlite3.connect("first.db")
 cursor=conn.cursor()
-sql = """ceate table employee(first_name char(20) not null,last_name char(20),age int,income float)"""
+sql = """create table employee(first_name char(20) not null,last_name char(20),age int,income float)"""
 cursor.execute(sql)
 print "table created successfully"
 cursor.executemany("insert into employee(first_name,last_name,age,income)/values(%s,%s,%s,%s),
