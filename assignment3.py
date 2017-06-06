@@ -1,3 +1,4 @@
+
 import sqlite3
 conn=sqlite3.connect("first.db")
 cursor=conn.cursor()
@@ -8,6 +9,7 @@ cursor.executemany("insert into employee(first_name,last_name,age,income)/values
 [
 ("heera","patil",21,25000),
 ("ajay","musham",22,25000),
+]
 print "insertion done"
 cursor.execute("select * from employee")
 for x in cursor:
