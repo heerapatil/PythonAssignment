@@ -4,5 +4,5 @@ print "The length of string is"+len(string)
 
 
 '''output:
-
+The length of string is 24
 '''
