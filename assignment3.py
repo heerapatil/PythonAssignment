@@ -28,4 +28,18 @@ for x in cursor:
   print "INCOME= ", x[3],"\n" 
 conn.commit()
 conn.close()
+'''OUTPUT:
+table created successfully
+insertion done
+FIRST_NAME =  heera
+LAST_NAME =  patil
+AGE =  21
+INCOME=  25000.0
+record updated
+insertion done
+record deleted
+FIRST_NAME =  heera
+LAST_NAME =  patil
+AGE =  21
+INCOME=  25000.0 '''
 
